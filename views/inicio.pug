@@ -1,0 +1,45 @@
+extends ./layout/index
+
+block slider
+    .slider
+        h1 Rio de janeiro
+        em aventura
+
+
+block contenido 
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col-md-6 
+               p ¡Bienvenidos a Agencia Naft!
+
+               p Somos mucho más que una agencia de viajes; somos tus compañeros en la búsqueda de aventuras y experiencias extraordinarias. ¿Estás listo para embarcarte en un viaje que te llevará más allá de lo común?
+
+               p En Agencia Naft, no solo vendemos destinos, creamos recuerdos imborrables. Desde los icónicos caminos de París hasta las playas secretas de Bali, te llevamos a lugares que inspiran asombro, conectan culturas y despiertan tus sentidos.
+
+               p Nuestro equipo de apasionados expertos está aquí para convertir tus sueños en realidades. Personalizamos cada detalle para que cada itinerario se adapte a tus deseos únicos. Imagina explorar ciudades históricas, probar sabores exóticos y descubrir rincones escondidos que solo los lugareños conocen.
+
+               p No se trata solo de ver lugares, sino de sumergirse en nuevas perspectivas. Cada viaje es una oportunidad para ampliar horizontes, hacer nuevos amigos y desafiar lo conocido. ¿Estás listo para marcar la diferencia en tu forma de ver el mundo?
+
+               p La aventura comienza aquí, en Agencia Naft. ¡No esperes más! Contacta con nosotros y déjanos diseñar la experiencia de tu vida. Tu próxima gran historia comienza con un clic. ¡Únete a nosotros y hagamos que cada milla cuente!
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen nosotrtos", class="img-fluid")
+
+        include ./layout/bloque_viajes
+
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido
+                        h3 5% de descuento
+                        p.titulo Viaje a Canadá
+                        p.fecha 19 de Julio de 2024 - 19 de Julio de 2024
+                        p.precio $300 USD
+
+    .container 
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales
+
+        
+            
